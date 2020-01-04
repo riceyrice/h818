@@ -1,3 +1,7 @@
+---
+title: Conference Poster
+---
+
 # Jekyll not hide: Using distributed software development techniques to build scaffolded learning resources in the open
 
 **OU H818 "The Networked Practitioner" Online Conference 2020**
