@@ -16,4 +16,4 @@ A journey into creating OER (Open Educational Resources) using Jekyll, a simple 
 ...
 
 ## Find out more
-See the [Project Home Page](/)
+See the [Project Home Page](../index.md)
