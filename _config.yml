@@ -1,1 +1,18 @@
 theme: jekyll-theme-cayman
+title: H818 OER in the Open
+description: Using distributed software development techniques to build scaffolded learning resources in the open
+
+author: Stephen Rice
+pub_year: 2020
+github_username: riceyrice
+twitter_username: riceyriceyricey
+
+repo: https://github.com/riceyrice/h818
+url: https://riceyrice.github.io
+baseurl: /h818
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
