@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {%- include poster/head.html -%}
+  <body>
+    {%- include poster/header.html -%}
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+    </main>
+    {%- include poster/footer.html -%}
+  </body>
+</html>

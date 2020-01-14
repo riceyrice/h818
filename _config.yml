@@ -10,9 +10,16 @@ twitter_username: riceyriceyricey
 repo: https://github.com/riceyrice/h818
 url: https://riceyrice.github.io
 baseurl: /h818
+exclude: 
+  - README.md
 
 defaults:
   - scope:
       path: ""
     values:
       layout: default
+  - scope:
+      path: poster
+    values:
+      theme: null
+      layout: poster
