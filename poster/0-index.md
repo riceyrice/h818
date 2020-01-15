@@ -15,7 +15,7 @@ Presenting a journey into creating OER (Open Educational Resources)...
   and adapt!
 
 <figure>
-  <img src="images/800px-Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg" alt="Dr Jekyll and Mr Hyde"/>
+  <img class="responsive" src="images/800px-Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg" alt="Dr Jekyll and Mr Hyde" width="800" height="556">
   <figcaption>
     Poster for a theatrical adaptation of <i>Strange Case of Dr Jekyll and Mr Hyde</i><br>
     <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>
