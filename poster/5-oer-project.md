@@ -3,10 +3,8 @@ title: What might this look like?
 poster_nav: true
 ---
 
-<!--video src="" class="responsive">
-    A short video demo of GitHub Pages?
-</video-->
+<video src="images/demo-zmgnoacomp4.compressed.mp4" class="responsive" preload="auto" controls>
+    A short video demo of GitHub Pages
+</video>
 
-*A short video demo of GitHub Pages?*
-
-[Transcript](transcript.html)
+[Transcript of video](transcript.html)
