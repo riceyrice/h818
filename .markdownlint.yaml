@@ -1,10 +1,12 @@
 MD013: false
-MD033: 
+MD026:
+  punctuation: '.,;:-'
+MD033:
   allowed_elements:
     - figure
     - figcaption
     - img
-    - a 
+    - a
     - i
     - br
     - video
