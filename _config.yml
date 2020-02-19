@@ -13,6 +13,9 @@ baseurl: /h818
 exclude: 
   - README.md
 
+disqus:
+  shortname: h818
+
 defaults:
   - scope:
       path: ""
