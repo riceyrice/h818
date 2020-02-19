@@ -1,7 +1,7 @@
 <!-- Disqus comments -->
 {% if site.disqus.shortname %}
     {% if jekyll.environment == "production" %}
-        {% if page.comments != false %}
+        {% if page.comments == true %}
             <aside>
                 <div id="disqus_thread"></div>
             </aside>
