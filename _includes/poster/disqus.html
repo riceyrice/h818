@@ -1,0 +1,26 @@
+{% comment %}
+    Adds Disqus comments for the site.
+
+    Checks whether the environment variable is "production" to render the snippet, otherwise renders a waring comment.
+    Requires comments: true value in the page's YAML header, otherwise renders a warning.
+
+    The include should be added where the commenting sectiong should appear,
+    and the parameter disqus.shortname should be specified in the _config.ylm.
+{% endcomment %}
+
+<!-- Disqus comments -->
+{% if site.disqus.shortname %}
+    {% if jekyll.environment == "production" %}
+        {% if page.comments != false %}
+            <div class="disqus"></div>
+        {% else %}
+            <!-- Comments are disabled for this post. -->
+        {% endif %}
+    {% else %}
+        <!-- jekyll.environment variable is "{{ jekyll.environment }}" and not "production", Disqus snippet will be skipped. -->
+    {% endif %}
+
+    {% else %}
+        <!-- Please specify disqus.shortname variable in the _config.yml to enable Disqus comments -->
+{% endif %}
+<!-- End Disquss comments -->
